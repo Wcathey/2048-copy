@@ -1,0 +1,12 @@
+refactor notes:
+
+need to be looping through the gridblocks to see which tiles are holding values
+when we make any move it needs to append a new tile to the gridblock but
+we cant have it append to a div thats holding a tile already
+
+randomPosition creates an array of two positions. refactor to only create one position
+then we can call it twice or recursively on start to generate two positions
+
+value on each new tile needs to be either 2 or 4 randomly generated
+
+createtiles is currently making two tiles. we can call it twice using one value on start
